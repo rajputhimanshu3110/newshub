@@ -7,7 +7,7 @@ export class News extends Component {
         super(props);
         this.state = {
             loading: false,
-            articles: [],
+            articles: [''],
             totalResults: 0,
             page: 1
         }
