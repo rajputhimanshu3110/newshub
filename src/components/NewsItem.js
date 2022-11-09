@@ -16,7 +16,7 @@ export class NewsItem extends Component {
                     <h6 className="card-subtitle text-muted">Date : {new Date(date).toLocaleString()}</h6>
 
                     <p className="card-text">{data}</p>
-                    <a href={url} target='_blank' className="btn btn-primary btn-sm">Full News</a>
+                    <a href={url}  className="btn btn-primary btn-sm">Full News</a>
                 </div>
 
             </div>
